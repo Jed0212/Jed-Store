@@ -1,43 +1,30 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+## Title : Grocery Store Template
 
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+## AUTHOR: Rutik Bhoyar
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+- Github : https://github.com/Rutikab12
+- Twitter: https://twitter.com/RutikBhoyar
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+## Home Screen
+<img width="1440" src="../Kirana Store Template/img 1.PNG">
 
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+## Features
+<img width="1440" src="../Kirana Store Template/img 2.PNG">
+
+
+## Products
+<img width="1440" src="../Kirana Store Template/img 3.PNG">
+
+
+## Categories
+<img width="1440" src="../Kirana Store Template/img 4.PNG">
+
+
+## Review
+<img width="1440" src="../Kirana Store Template/img 5.PNG">
+
+
+## Blogs
+<img width="1440" src="../Kirana Store Template/img 6.PNG">
